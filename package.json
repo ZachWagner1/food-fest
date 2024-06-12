@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server",
     "webpack": "webpack --watch",
     "build": "webpack"
   },
@@ -15,7 +16,8 @@
     "file-loader": "^6.2.0",
     "webpack": "^5.92.0",
     "webpack-bundle-analyzer": "^4.10.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
